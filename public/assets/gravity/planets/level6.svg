@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs><radialGradient id="sh6" cx="0.38" cy="0.3" r="0.95">
+      <stop offset="0" stop-color="#f9c5d8"/>
+      <stop offset="0.55" stop-color="#ef8fb5"/>
+      <stop offset="1" stop-color="#c25a8a"/>
+    </radialGradient><radialGradient id="rim6" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0.62" stop-color="#c25a8a" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0c1020" stop-opacity="0.55"/>
+    </radialGradient><clipPath id="cl6"><circle cx="300" cy="300" r="292"/></clipPath></defs>
+  
+  <circle cx="300" cy="300" r="292" fill="url(#sh6)"/>
+  <g clip-path="url(#cl6)"><ellipse cx="223" cy="458" rx="126" ry="98" fill="#f2a3c3" opacity="0.75" transform="rotate(13 223 458)"/><ellipse cx="364" cy="499" rx="108" ry="93" fill="#f2a3c3" opacity="0.75" transform="rotate(27 364 499)"/><ellipse cx="123" cy="357" rx="111" ry="76" fill="#f2a3c3" opacity="0.75" transform="rotate(25 123 357)"/><ellipse cx="442" cy="322" rx="127" ry="84" fill="#f2a3c3" opacity="0.75" transform="rotate(-1 442 322)"/><ellipse cx="449" cy="162" rx="151" ry="109" fill="#f2a3c3" opacity="0.75" transform="rotate(-12 449 162)"/><ellipse cx="135" cy="335" rx="142" ry="116" fill="#f2a3c3" opacity="0.75" transform="rotate(14 135 335)"/><ellipse cx="148" cy="84" rx="79" ry="63" fill="#f2a3c3" opacity="0.75" transform="rotate(-0 148 84)"/><ellipse cx="300" cy="89.76000000000002" rx="160.60000000000002" ry="52.559999999999995" fill="#fff" opacity="0.28"/></g>
+  <circle cx="300" cy="300" r="292" fill="url(#rim6)"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 73" width="72" height="73">
+  <!-- Recreation of Quizlet Gravity IntroRedAsteroid -->
+  <defs>
+    <radialGradient id="shade" cx="0.38" cy="0.32" r="0.85">
+      <stop offset="0" stop-color="#f2b3a6"/>
+      <stop offset="0.55" stop-color="#e98a76"/>
+      <stop offset="1" stop-color="#d96550"/>
+    </radialGradient>
+  </defs>
+  <path fill="url(#shade)" stroke="#a84936" stroke-width="3"
+    d="M36 3 C 52 2, 64 12, 69 25 C 72 34, 70 46, 64 55 C 57 64, 47 70, 36 70 C 24 70, 14 63, 8 54 C 2 45, 1 33, 5 23 C 9 12, 20 4, 36 3 Z"/>
+  <ellipse cx="25" cy="24" rx="7" ry="6" fill="#ef9c8d" stroke="#a84936" stroke-width="2"/>
+  <ellipse cx="50" cy="33" rx="5" ry="4.5" fill="#ef9c8d" stroke="#a84936" stroke-width="2"/>
+  <ellipse cx="30" cy="52" rx="6" ry="5" fill="#ef9c8d" stroke="#a84936" stroke-width="2"/>
+  <circle cx="40" cy="15" r="3" fill="#a84936" opacity="0.6"/>
+  <path d="M14 14 C 20 9, 28 6, 36 5" fill="none" stroke="#ffd9cf" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+</svg>

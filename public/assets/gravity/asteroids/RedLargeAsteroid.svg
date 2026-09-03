@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 364 364" width="364" height="364">
+  <!-- Recreation of Quizlet Gravity BlueLargeAsteroid -->
+  <defs>
+    <radialGradient id="shade" cx="0.38" cy="0.32" r="0.85">
+      <stop offset="0" stop-color="#f2b3a6"/>
+      <stop offset="0.55" stop-color="#e98a76"/>
+      <stop offset="1" stop-color="#d96550"/>
+    </radialGradient>
+    <radialGradient id="craterG" cx="0.35" cy="0.3" r="0.9">
+      <stop offset="0" stop-color="#ef9c8d"/>
+      <stop offset="1" stop-color="#d96550"/>
+    </radialGradient>
+    <radialGradient id="innerShade" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0.6" stop-color="#d96550" stop-opacity="0"/>
+      <stop offset="1" stop-color="#8f3a29" stop-opacity="0.55"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <path id="rockOutline" fill="url(#shade)" stroke="#a84936" stroke-width="6"
+      d="M182 14 C 258 10, 322 62, 344 128 C 360 176, 352 232, 320 276 C 288 320, 236 350, 180 350 C 122 350, 70 318, 40 272 C 12 228, 6 170, 24 120 C 44 64, 106 18, 182 14 Z"/>
+    <ellipse cx="98" cy="96" rx="34" ry="30" fill="url(#craterG)" stroke="#a84936" stroke-width="4"/>
+    <ellipse cx="98" cy="96" rx="20" ry="17" fill="#d96550" opacity="0.6"/>
+    <ellipse cx="272" cy="150" rx="26" ry="23" fill="url(#craterG)" stroke="#a84936" stroke-width="4"/>
+    <ellipse cx="272" cy="150" rx="15" ry="13" fill="#d96550" opacity="0.6"/>
+    <ellipse cx="150" cy="272" rx="30" ry="25" fill="url(#craterG)" stroke="#a84936" stroke-width="4"/>
+    <ellipse cx="150" cy="272" rx="17" ry="14" fill="#d96550" opacity="0.6"/>
+    <ellipse cx="250" cy="262" rx="18" ry="15" fill="url(#craterG)" stroke="#a84936" stroke-width="3"/>
+    <ellipse cx="70" cy="200" rx="16" ry="14" fill="url(#craterG)" stroke="#a84936" stroke-width="3"/>
+    <ellipse cx="200" cy="60" rx="14" ry="12" fill="url(#craterG)" stroke="#a84936" stroke-width="3"/>
+    <circle cx="120" cy="150" r="7" fill="#a84936" opacity="0.5"/>
+    <circle cx="230" cy="210" r="6" fill="#a84936" opacity="0.5"/>
+    <circle cx="160" cy="110" r="5" fill="#a84936" opacity="0.4"/>
+    <path d="M60 60 C 95 30, 140 18, 182 16" fill="none" stroke="#ffd9cf" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+    <path d="M182 14 C 258 10, 322 62, 344 128 C 360 176, 352 232, 320 276 C 288 320, 236 350, 180 350 C 122 350, 70 318, 40 272 C 12 228, 6 170, 24 120 C 44 64, 106 18, 182 14 Z" fill="url(#innerShade)"/>
+  </g>
+</svg>
