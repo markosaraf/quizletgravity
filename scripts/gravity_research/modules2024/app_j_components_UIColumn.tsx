@@ -1,0 +1,5 @@
+// MODULE: ./app/j/components/UIColumn.tsx
+// pos: 94140
+(function (module, exports, require) {
+e,t,s)=>{"use strict";s.d(t,{Z:()=>u});s("./node_modules/core-js/modules/es.array.reduce.js");var n=s("./node_modules/classnames/index.js"),o=s.n(n),r=s("./node_modules/react/index.js"),i=s("./app/j/utils/bound-range.ts"),a=s("./node_modules/react/jsx-runtime.js");const l={"1.0":"UIColumn--d12",.91666:"UIColumn--d11",.83333:"UIColumn--d10",.75:"UIColumn--d9",.66666:"UIColumn--d8",.58333:"UIColumn--d7",.5:"UIColumn--d6",.41666:"UIColumn--d5",.33333:"UIColumn--d4",.25:"UIColumn--d3",.16666:"UIColumn--d2",.08333:"UIColumn--d1"},d={"1.0":"UIColumn--m6",.83333:"UIColumn--m5",.66666:"UIColumn--m4",.5:"UIColumn--m3",.33333:"UIColumn--m2",.16666:"UIColumn--m1"},c=(e,t)=>Object.keys(e).reduce(((s,n)=>!s&&parseFloat(n)<=(0,i.Z)(t,0,1)?e[String(n)]:s),null);class u extends r.PureComponent{render(){const e=o()("UIColumn",c(l,this.props.width),c(d,this.props.mobileWidth));return(0,a.jsx)("div",{className:e,children:this.props.children})}}u.defaultProps={mobileWidth:1,width:1}}
+});

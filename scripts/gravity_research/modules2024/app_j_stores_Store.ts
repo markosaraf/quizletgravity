@@ -1,0 +1,5 @@
+// MODULE: ./app/j/stores/Store.ts
+// pos: 278812
+(function (module, exports, require) {
+e,t,s)=>{"use strict";s.d(t,{Z:()=>a});var n=s("./app/j/dispatchers/AppDispatcher.ts"),o=s("./node_modules/events/events.js");const r="change";let i={_handlers:null,_waitForTokens:null,dispatchToken:null,addChangeListener(e){this.on(r,e)},removeChangeListener(e){this.removeListener(r,e)},change(e){this.emit(r,e)},init(){this._handlers={},this._waitForTokens={},this.dispatchToken=n.Z.register((e=>{n.Z.waitFor(Object.keys(this._waitForTokens));const{actionType:t,payload:s}=e;if(!t)throw new Error("Action type unspecified");t in this._handlers&&this.change(this._handlers[t](s))}))},bindActions(e,t){if("string"!=typeof e)throw new Error("Action must be a string");if("function"!=typeof t)throw new Error("Handler must be a function");this._handlers[e]=t.bind(this)},waitFor(){for(var e=arguments.length,t=new Array(e),s=0;s<e;s++)t[s]=arguments[s];Array.from(t).forEach((e=>{this._waitForTokens[e.dispatchToken]=!0}))}};i=Object.assign(i,o.EventEmitter.prototype);const a=i}
+});

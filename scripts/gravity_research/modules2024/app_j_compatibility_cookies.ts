@@ -1,0 +1,5 @@
+// MODULE: ./app/j/compatibility/cookies.ts
+// pos: 42188
+(function (module, exports, require) {
+e,t,s)=>{"use strict";s.d(t,{f:()=>i});s("./node_modules/core-js/modules/es.array.iterator.js"),s("./node_modules/core-js/modules/web.dom-collections.iterator.js"),s("./node_modules/core-js/modules/es.json.stringify.js");var n=s("./app/j/hooks/useIsomorphicLayoutEffect.ts"),o=s("./node_modules/react/index.js"),r=s("./app/j/utils/Cookie.ts");const i=()=>{const[e,t]=(0,o.useState)(null),s=(e,s,n)=>{if("undefined"==typeof window)throw new Error("Attempt to call writeCookies with key "+e+" failed on the server: `document` doesn't exist. Please ensure cookies are only written on the browser");const o=r.ZP.write(e,s,n);return t(document.cookie),o},i=t=>e?r.ZP.readFrom(t,e):null;return(0,n.Z)((()=>{t(document.cookie)}),[]),{cookie:e,disposeCookie:function(e,t){return void 0===t&&(t={}),s(e,"",{...t,duration:-1})},readCookieWithKey:i,readJsonCookieWithKey:e=>{const t=i(e);return t?JSON.parse(t):null},writeCookie:s,writeJsonCookie:(e,t,n)=>s(e,JSON.stringify(t),n)}}}
+});
